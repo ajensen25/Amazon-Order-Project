@@ -1,0 +1,42 @@
+.returnhome {
+    color: rgb(0,113,133)
+}
+
+.returnhome:hover {
+    color: rgb(168, 141, 7)
+}
+
+.price{
+    color: green;
+}
+
+.delivery{
+    font-size: 18px;
+}
+
+.addcart, .buy {
+    height: 35px;
+    width: 140px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right:12px;
+    cursor: pointer;
+}
+
+.addcart:hover, .buy:hover {
+    opacity: 0.8;
+}
+
+.addcart:active, .buy:active {
+    opacity: 0.6;
+}
+
+.addcart{
+    background-color: rgb(255,216,20)
+}
+
+.buy {
+    background-color: rgb(255,164,28);
+}
